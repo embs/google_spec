@@ -5,8 +5,7 @@ Capybara.configure do |config|
 end
 
 describe 'Google', type: :feature do
-  it 'displays text field' do
+  it 'works' do
     visit '/'
-    expect(page).to have_css('input[type="text"]')
   end
 end
